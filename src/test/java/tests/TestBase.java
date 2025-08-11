@@ -12,10 +12,10 @@ import org.openqa.selenium.MutableCapabilities;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+@Tag("set_up")
 public class TestBase {
 
     @BeforeAll
-    @Tag("set_up")
     public static void beforeAll() {
         Configuration.browserSize = System.getProperty("browser_size");
         Configuration.remote = System.getProperty("remote_url");

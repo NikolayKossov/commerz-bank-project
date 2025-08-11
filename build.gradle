@@ -32,8 +32,8 @@ allure {
     version = '2.21.0'
 }
 
-//task simple_test(type: Test) {
-//    useJUnitPlatform {
-//        includeTags("simple")
-//    }
-//}
+task simple_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("simple")
+    }
+}
