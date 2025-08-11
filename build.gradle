@@ -1,9 +1,7 @@
 plugins {
-    id 'java'
+    id 'java-library'
+    id 'io.qameta.allure' version '2.11.2'
 }
-
-group = 'org.example'
-version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -12,8 +10,30 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.codeborne:selenide:7.9.4'
+    implementation 'io.qameta.allure:allure-selenide:2.29.1'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
 }
 
-test {
-    useJUnitPlatform()
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
 }
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+    systemProperties(System.getProperties())
+    testLogging {
+        showStandardStreams = true
+        events "passed", "skipped", "failed"
+    }
+}
+
+allure {
+    version = '2.21.0'
+}
+
+//task simple_test(type: Test) {
+//    useJUnitPlatform {
+//        includeTags("simple")
+//    }
+//}
