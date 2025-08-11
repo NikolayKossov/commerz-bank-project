@@ -12,7 +12,7 @@ import org.openqa.selenium.MutableCapabilities;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-@Tag("set_up")
+@Tag("simple")
 public class TestBase {
 
     @BeforeAll

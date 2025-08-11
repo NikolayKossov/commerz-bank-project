@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static data.DataFakerBase.*;
 import static io.qameta.allure.Allure.step;
 
-@Tag("set_up")
+@Tag("simple")
 public class FillTheFormTest extends TestBase {
     @Test
     void fillTest() {

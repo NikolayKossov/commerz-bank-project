@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-@Tag("set_up")
+@Tag("simple")
 public class FindTestEngineerVacancyTest {
     @Test
     void findVacancy() {
