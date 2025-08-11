@@ -14,6 +14,6 @@ public class ApplyToThePositionTest {
     @Test
     void applyTest() {
         open("https://commerzbank-poland.breezy.hr/p/904b265d84c001-test-engineer-intern-document-lifecycle--talentbank-2025");
-        $(".sidebar-container").$(byText("Apply To Position")).click();
+        $(".sidebar-container").$(byText("Откликнуться на вакансию")).click();
     }
 }
