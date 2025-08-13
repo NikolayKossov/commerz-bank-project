@@ -16,14 +16,14 @@ public class FillTheFormTest extends TestBase {
             $("[name='cName']").setValue(fullName);
             $("[name='cEmail']").setValue(email);
             $("[name='cPhoneNumber']").setValue(phoneNumber);
-            $("[name='form']").$(byText("Добавить вакансию")).click();
+            $("[name='form']").$(byText("Add Position")).click();
             $("[ng-model='candidatePosition.company_name']").setValue(companyName);
             $("[ng-model='candidatePosition.title']").setValue(jobTitle);
             $("[ng-model='candidatePosition.summary']").setValue(jobSummary);
             $(byText("Start date")).sibling(0).setValue(workStartDate);
             $(byText("End date")).sibling(0).setValue(workEndDate);
 
-            $("[name='form']").$(byText("Добавить образование")).click();
+            $("[name='form']").$(byText("Add education")).click();
             $("[ng-model='candidateSchool.school_name']").setValue(universityName);
             $("[ng-model='candidateSchool.field_of_study']").setValue(major);
             $("[ng-model='candidateSchool.summary']").setValue(educationSummary);

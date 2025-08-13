@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "commerz bank project",
+    "environment": "",
+    "comment": "This is a message comment, @Kossovnik",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "C:/hw/CommerzBankProject/build/reports/allure-report/allureReport",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7941456950:AAGN0jtOlCmz73eI-XKiJ7Hn_aETXGO20dQ",
+    "chat": "-1002681264497",
+    "replyTo": ""
+  }
+}
