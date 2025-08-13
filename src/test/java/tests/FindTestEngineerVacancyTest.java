@@ -15,11 +15,5 @@ public class FindTestEngineerVacancyTest {
         open("https://commerzbank-poland.breezy.hr/");
         $$(".positions-container li").findBy(text("Test Engineer Intern")).click();
         $("#heroBackgroundColor").shouldHave(text("Test Engineer Intern"));
-        String finalUrl = WebDriverRunner.url();
-        System.out.println("Final URL: " + finalUrl);
-
-        // Если нужно добавить в Allure
-        io.qameta.allure.Allure.addAttachment("Open url", finalUrl);
-
     }
 }
