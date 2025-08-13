@@ -23,7 +23,7 @@ public class FillTheFormTest extends TestBase {
             $(byText("Start date")).sibling(0).setValue(workStartDate);
             $(byText("End date")).sibling(0).setValue(workEndDate);
 
-            $("[name='form']").$(byText("Add education")).click();
+            $("[name='form']").$(byText("Add Education")).click();
             $("[ng-model='candidateSchool.school_name']").setValue(universityName);
             $("[ng-model='candidateSchool.field_of_study']").setValue(major);
             $("[ng-model='candidateSchool.summary']").setValue(educationSummary);
