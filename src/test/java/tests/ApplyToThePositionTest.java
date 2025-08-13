@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 @Tag("simple")
-public class ApplyToThePositionTest {
+public class ApplyToThePositionTest extends TestBase {
     @Test
     void applyTest() {
         open("https://commerzbank-poland.breezy.hr/p/904b265d84c001-test-engineer-intern-document-lifecycle--talentbank-2025");

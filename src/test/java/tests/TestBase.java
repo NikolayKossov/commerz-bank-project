@@ -18,7 +18,7 @@ public class TestBase {
     @BeforeAll
     public static void beforeAll() {
         Configuration.browserSize = System.getProperty("browser_size");
-        Configuration.remote = System.getProperty("selenide.remote", System.getProperty("remote_url"));
+        Configuration.remote = System.getProperty("remote_url");
         Configuration.browser = System.getProperty("browser");
         Configuration.browserVersion = System.getProperty("browser_version");
 
