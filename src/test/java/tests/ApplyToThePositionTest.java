@@ -20,6 +20,7 @@ public class ApplyToThePositionTest extends TestBase {
     @Test
     void applyTest() {
         new CareersPage()
+                .openHome()
                 .openVacancy("Test Engineer Intern")
                 .clickApplyToPosition();
     }

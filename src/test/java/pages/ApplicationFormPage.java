@@ -4,6 +4,7 @@ import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class ApplicationFormPage {
 
@@ -14,6 +15,13 @@ public class ApplicationFormPage {
         $("[name='cPhoneNumber']").setValue(phone);
         return this;
     }
+
+    @Step("Open application form page directly")
+    public ApplicationFormPage openForm() {
+        open("https://commerzbank-poland.breezy.hr/p/904b265d84c001-test-engineer-intern-document-lifecycle--talentbank-2025/apply");
+        return this;
+    }
+
 
     @Step("Add work experience: {company} / {title}")
     public ApplicationFormPage addWorkExperience(String company, String title, String summary,

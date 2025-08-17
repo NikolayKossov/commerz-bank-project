@@ -20,6 +20,7 @@ public class FillTheFormTest extends TestBase {
         @Test
         void fillTest() {
                 new ApplicationFormPage()
+                        .openForm()
                         .fillPersonal(fullName, email, phoneNumber)
                         .addWorkExperience(companyName, jobTitle, jobSummary, workStartDate, workEndDate)
                         .addEducation(universityName, major, educationSummary, educationStartDate, educationEndDate)
