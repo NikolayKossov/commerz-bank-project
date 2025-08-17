@@ -1,11 +1,16 @@
 package tests;
 
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
+@Epic("Job Application")
+@Feature("Application form")
+@Owner("Nikolay Kossov")
+@Severity(SeverityLevel.CRITICAL)
 @Tag("simple")
 public class ApplyToThePositionTest extends TestBase {
     @Test
