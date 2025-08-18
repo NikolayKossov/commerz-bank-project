@@ -92,3 +92,10 @@ After the build is completed, a special bot created in **Telegram** automaticall
 <p align="left">
   <img src="media/telegram1.png" alt="Telegram notification with test results" width="1080"/>
 </p>
+
+## Selenoid Test Running Example
+Below is an example of a test execution in **Selenoid**:
+
+<p align="center">
+  <img src="media/video/test1.gif" alt="Selenoid test run example" width="1080"/>
+</p>
