@@ -59,3 +59,15 @@
   -Dbrowser_version=${BROWSER_VERSION} \
   -Dbrowser_size=${BROWSER_SIZE}
 
+## 🖥️ Running tests in Jenkins
+
+You can run tests directly from Jenkins, either on your own server or using the prepared project job.  
+
+- **Example: Commerzbank Test Project**  
+  Open [Jenkins Job](http://91.98.64.185:8080/job/commerz-bank-test-project/)  
+
+1. Click **Build with Parameters**.  
+2. Set the required parameters (browser, version, resolution, remote URL).  
+3. Click **Build** to start the test run.  
+
+> After the run, you can view the **Allure Report**, including attached screenshots and page source.
