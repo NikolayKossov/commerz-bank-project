@@ -1,17 +1,38 @@
-🚀 Commerzbank Job Application — UI Test Automation
+Test automation project for Commerzbank
+Table of contents
 
-High-impact UI test suite for the job application flow at Commerzbank Poland:
-open main page → go to careers → open vacancy → apply → fill the form.
-Runs on Selenoid via Jenkins, produces rich Allure reports with screenshots & video.
+Technologies and tools
 
-<p align="left"> <img alt="Java" src="https://img.shields.io/badge/Java-17-orange"> <img alt="Gradle" src="https://img.shields.io/badge/Gradle-build-green"> <img alt="JUnit5" src="https://img.shields.io/badge/JUnit5-tests-red"> <img alt="Selenide" src="https://img.shields.io/badge/Selenide-UI-blue"> <img alt="Selenoid" src="https://img.shields.io/badge/Selenoid-Grid-lightgrey"> <img alt="Allure Report" src="https://img.shields.io/badge/Allure-Report-yellow"> <img alt="Jenkins" src="https://img.shields.io/badge/Jenkins-CI/CD-brown"> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Repo-black"> </p>
+Implemented checks
 
-Highlights
+Running tests from the terminal
 
-Clean Page Objects + Allure steps for crystal-clear reports
+Running tests in Jenkins
 
-Remote execution on Selenoid (video, logs, artifacts)
+Test results report in Allure Report
 
-One-command runs locally and in Jenkins
+Integration with Allure TestOps
 
-Screenshots, page source, and video attached to every failed step
+Integration with Jira
+
+Telegram notifications using a bot
+
+Test running example in Selenoid
+
+:technologist: Technologies and tools
+<p align="center">
+
+<code><img width="5%" title="IntelliJ IDEA" src="media/logo/Idea.svg"></code>
+<code><img width="5%" title="Java" src="media/logo/Java.svg"></code>
+<code><img width="5%" title="Selenoid" src="media/logo/Selenoid.svg"></code>
+<code><img width="5%" title="Selenide" src="media/logo/Selenide.svg"></code>
+<code><img width="5%" title="Gradle" src="media/logo/Gradle.svg"></code>
+<code><img width="5%" title="Junit5" src="media/logo/Junit5.svg"></code>
+<code><img width="5%" title="GitHub" src="media/logo/GitHub.svg"></code>
+<code><img width="5%" title="Allure Report" src="media/logo/Allure.svg"></code>
+<code><img width="5%" title="Allure TestOps" src="media/logo/Allure_TO.svg"></code>
+<code><img width="5%" title="Jenkins" src="media/logo/Jenkins_logo.svg"></code>
+<code><img width="5%" title="Jira" src="media/logo/Jira.svg"></code>
+<code><img width="5%" title="Telegram" src="media/logo/Telegram.svg"></code>
+
+</p>
