@@ -90,5 +90,5 @@ Clicking on it will open the generated HTML report page.
 After the build is completed, a special bot created in **Telegram** automatically sends a notification with summarized test results.
 
 <p align="left">
-  <img src="media/screens/telegram.png" alt="Telegram notification with test results" width="500"/>
+  <img src="media/telegram1.png" alt="Telegram notification with test results" width="1080"/>
 </p>
