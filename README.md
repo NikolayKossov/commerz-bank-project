@@ -71,12 +71,17 @@ You can run tests directly from Jenkins, either on your own server or using the 
 3. Click **Build** to start the test run.  
 
 <p align="left">
-  <img src="media/jenkins1.png" alt="Jenkins build with parameters" width="700"/>
+  <img src="media/jenkins1.png" alt="Jenkins build with parameters" width="1080"/>
 </p>
 
 After the build is completed, in the **Builds history** opposite the build number will appear the **Allure Report** icon.  
 Clicking on it will open the generated HTML report page.
 
 <p align="left">
-  <img src="media/jenkins2.png" alt="Allure Report in Jenkins" width="800"/>
+  <img src="media/jenkins2.png" alt="Allure Report in Jenkins" width="1080"/>
+</p>
+
+## 📊 Allure Report in Jenkins
+<p align="left">
+  <img src="media/allure1.png" alt="Allure Report in Jenkins" width="1080"/>
 </p>
