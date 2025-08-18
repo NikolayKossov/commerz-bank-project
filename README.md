@@ -51,13 +51,11 @@
 - **Run locally**  
   ```bash
   gradle clean simple_test
-gradle clean simple_test \
+- **Run remotely**
+  ```bash
+  gradle clean simple_test \
   -Dbrowser=${BROWSER} \
   -Dremote_url=${URL_LINK} \
   -Dbrowser_version=${BROWSER_VERSION} \
   -Dbrowser_size=${BROWSER_SIZE}
-gradle clean simple_test \
-  -Dbrowser=chrome \
-  -Dremote_url=http://selenoid.company.com:4444/wd/hub \
-  -Dbrowser_version=120.0 \
-  -Dbrowser_size=1920x1080
+
