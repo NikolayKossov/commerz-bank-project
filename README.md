@@ -27,3 +27,22 @@
   <code><img height="40" title="Telegram" src="media/logo/Telegram.svg"></code>
 </p>
 
+## :bookmark_tabs: Implemented checks
+
+### :computer: UI Tests (Commerzbank Careers)
+
+- **Main page → Careers navigation**  
+  Open `lodz.commerzbank.pl` → accept cookies → switch to **EN** → click **Apply** → switch to new tab → verify header **“Join Commerzbank Team”**.
+
+- **Find vacancy by title**  
+  Open Commerzbank Careers home → click vacancy **“Test Engineer Intern”** → assert vacancy header is **“Test Engineer Intern”**.
+
+- **Open application form from vacancy page**  
+  On the vacancy page click **“Apply To Position”** → navigate to the application form.
+
+- **Fill and validate application form**  
+  Open the **apply** page → fill **Name / Email / Phone** → add **Work experience** (company, title, summary, dates) → add **Education** (school, field, summary, dates) → fill **Summary & Cover Letter** → accept **GDPR**.  
+  *(final submit intentionally disabled for demo safety)*
+
+> All tests run on **Selenoid**; each run attaches **screenshots**, **page source**, and **video** to Allure Report.
+
