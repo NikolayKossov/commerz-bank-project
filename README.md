@@ -70,4 +70,6 @@ You can run tests directly from Jenkins, either on your own server or using the 
 2. Set the required parameters (browser, version, resolution, remote URL).  
 3. Click **Build** to start the test run.  
 
-> After the run, you can view the **Allure Report**, including attached screenshots and page source.
+<p align="center">
+  <img src="media/jenkins1.png" alt="Jenkins build with parameters" width="700"/>
+</p>
