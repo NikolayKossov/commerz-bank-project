@@ -85,3 +85,10 @@ Clicking on it will open the generated HTML report page.
 <p align="left">
   <img src="media/allure1.png" alt="Allure Report in Jenkins" width="1080"/>
 </p>
+
+## Telegram Notifications
+After the build is completed, a special bot created in **Telegram** automatically sends a notification with summarized test results.
+
+<p align="center">
+  <img src="media/screens/telegram.png" alt="Telegram notification with test results" width="500"/>
+</p>
