@@ -46,3 +46,18 @@
 
 > All tests run on **Selenoid**; each run attaches **screenshots**, **page source**, and **video** to Allure Report.
 
+## :computer: Running tests from the terminal
+
+- **Run locally**  
+  ```bash
+  gradle clean simple_test
+    gradle clean simple_test \
+      -Dbrowser=${BROWSER} \
+      -Dremote_url=${URL_LINK} \
+      -Dbrowser_version=${BROWSER_VERSION} \
+      -Dbrowser_size=${BROWSER_SIZE}
+    gradle clean simple_test \
+  -Dbrowser=chrome \
+  -Dremote_url=http://selenoid.company.com:4444/wd/hub \
+  -Dbrowser_version=120.0 \
+  -Dbrowser_size=1920x1080
