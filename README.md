@@ -22,7 +22,6 @@
   <code><img height="40" title="JUnit5" src="media/logo/Junit5.svg"></code>
   <code><img height="40" title="GitHub" src="media/logo/GitHub.svg"></code>
   <code><img height="40" title="Allure Report" src="media/logo/Allure.svg"></code>
-  <code><img height="40" title="Allure TestOps" src="media/logo/Allure_TO.svg"></code>
   <code><img height="40" title="Jenkins" src="media/logo/Jenkins_logo.svg"></code>
   <code><img height="40" title="Jira" src="media/logo/Jira.svg"></code>
   <code><img height="40" title="Telegram" src="media/logo/Telegram.svg"></code>
