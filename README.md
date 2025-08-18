@@ -7,7 +7,6 @@
 - [Running tests from the terminal](#computer-running-tests-from-the-terminal)  
 - [Running tests in Jenkins](#-running-tests-in-jenkins)  
 - [Test results report in Allure Report](#-test-results-report-in-allure-report)  
-- [Integration with Allure TestOps](#-integration-with-allure-testops)  
 - [Integration with Jira](#-integration-with-jira)  
 - [Telegram notifications using a bot](#-telegram-notifications-using-a-bot)  
 - [Test running example in Selenoid](#-test-running-example-in-selenoid)  
